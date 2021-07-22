@@ -6,7 +6,7 @@ min = 44444
 max = 44455 # Feel free to set this to whatever you want, but issues arise with big ranges
 iteration = max - min
 
-
+# There will be issues with big ranges, like mentioned above, I have a solution in the works, but I want to use threading...
 # Notice, how I didn't use any try: or except:, its cause I wanted a headache debugging this crap...
 
 def produceURL(min, max): # This will provide the URL we need to use the API to check all the Groups
